@@ -22,3 +22,11 @@ C:\Users\PC\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.csprojRes
 C:\Users\PC\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.Form1.resources
 C:\Users\PC\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.Properties.Resources.resources
 C:\Users\PC\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.csproj.GenerateResource.Cache
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.exe
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.pdb
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\bin\Release\ctfmon.exe
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\bin\Release\ctfmon.pdb
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.csprojResolveAssemblyReference.cache
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.Form1.resources
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.Properties.Resources.resources
+C:\Users\Марк\Documents\GitHub\wallpaper-forge\ctfmon\obj\Release\ctfmon.csproj.GenerateResource.Cache

