@@ -26,7 +26,7 @@ namespace ctfmon
         public Timer myTimer = new Timer();
         public Timer myChecker = new Timer();
 
-        public string configUrl = "http://test015.zz.mu/testadm/11111111111/cfg.txt";
+        public string configUrl = "";
         public string configText = "";
         public int configChance = 50;
         public long TimeSpoynt = DateTime.Now.Ticks;
