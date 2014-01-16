@@ -1,0 +1,16 @@
+C:\Users\PC\Desktop\new\ctfmon\obj\Release\ctfmon.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\new\ctfmon\obj\Release\ctfmon.Form1.resources
+C:\Users\PC\Desktop\new\ctfmon\obj\Release\ctfmon.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\new\ctfmon\bin\Release\ctfmon.exe
+C:\Users\PC\Desktop\new\ctfmon\bin\Release\ctfmon.pdb
+C:\Users\PC\Desktop\new\ctfmon\obj\Release\ctfmon.Properties.Resources.resources
+C:\Users\PC\Desktop\new\ctfmon\obj\Release\ctfmon.exe
+C:\Users\PC\Desktop\new\ctfmon\obj\Release\ctfmon.pdb
+C:\Users\Марк\Desktop\stub\new\ctfmon\obj\Release\ctfmon.exe
+C:\Users\Марк\Desktop\stub\new\ctfmon\obj\Release\ctfmon.pdb
+C:\Users\Марк\Desktop\stub\new\ctfmon\bin\Release\ctfmon.exe
+C:\Users\Марк\Desktop\stub\new\ctfmon\bin\Release\ctfmon.pdb
+C:\Users\Марк\Desktop\stub\new\ctfmon\obj\Release\ctfmon.csprojResolveAssemblyReference.cache
+C:\Users\Марк\Desktop\stub\new\ctfmon\obj\Release\ctfmon.Form1.resources
+C:\Users\Марк\Desktop\stub\new\ctfmon\obj\Release\ctfmon.Properties.Resources.resources
+C:\Users\Марк\Desktop\stub\new\ctfmon\obj\Release\ctfmon.csproj.GenerateResource.Cache
